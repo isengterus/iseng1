@@ -15,6 +15,7 @@ class Index extends Component{
         return(
             <div className="test">
                <h1>test</h1>
+               <h2>teh botol sosro </h2>
             </div>
         )
     }
