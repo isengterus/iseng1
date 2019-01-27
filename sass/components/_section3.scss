@@ -2,13 +2,14 @@
     height: 70vh;
     text-align: left;
     padding-top: 10vh;
-    font-family: "Viga";
+    font-family: "Eina 04", system, -apple-system, BlinkMacSystemFont, sans-serif;
 
     .display-4 {
         padding-top: 12vh;
         padding-bottom: 5vh;
         color: black;
         font-size: 4rem;
+        font-weight: bold;
     }
 
     hr {
@@ -19,6 +20,7 @@
     p {
         color: black;
         font-size: 2rem;
+        // font-weight:500;
     }
 
     .lead1 {
