@@ -3,7 +3,7 @@ import '../sass/main.scss'
 const Header = () => (
     <nav className="navbar fixed-top navbar-expand-lg navbar-light">
     <div className="container">
-      <a className="navbar-brand" href="#">Iseng-project</a>
+      <a className="navbar-brand" href="#">Iseng-projectt</a>
       {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
