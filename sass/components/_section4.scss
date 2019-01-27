@@ -1,0 +1,77 @@
+.section4 {
+    height: auto;
+    text-align: center;
+    font-family: "Eina 04", system, -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: left;
+    background: lightgrey;
+
+    .card {
+        margin-top: -15vh;
+    }
+
+    .img1, .img2 {
+        height: 20rem;
+    }
+
+    .img3 {
+        height: 30rem;
+    }
+
+    .card-title {
+        font-size : 14px;
+        font-weight : 700;
+        letter-spacing : 1.92992px;
+        line-height : 24.0002px;
+        text-decoration : none solid rgb(130, 141, 153);
+        text-align : left;
+        text-transform : uppercase;
+        word-spacing : 0px;
+        color : #828D99;
+    }
+
+    .card-text {
+        font-size : 18px;
+        font-weight : bold;
+        letter-spacing : -0.16px;
+        line-height : 23.9994px;
+        text-decoration : none solid rgb(97, 40, 255);
+        text-align : left;
+        word-spacing : 0px;
+        color :  black;
+    }
+
+    .card-date {
+        font-size: 15px;
+        line-height : 24px;
+        text-decoration : none solid rgb(0, 0, 0);
+        text-align : left;
+        word-spacing : 0px;
+    }
+
+    .card:hover {
+        opacity: 0.8;
+    }
+
+    .card-text:hover{
+        color: blue;
+    }
+}
+
+@include respond(phone) {
+    .section4 {
+        .card {
+            margin-top: -10vh;
+            margin-bottom: 15vh;
+            margin-left: 4vh;
+            margin-right: 4vh;
+        }
+
+        .img1, .img2 {
+            height: 40rem;
+        }
+    
+        .img3 {
+            height: 30rem;
+        }
+    }
+}

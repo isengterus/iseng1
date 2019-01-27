@@ -1,0 +1,65 @@
+//DESKTOP
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    .navbar-brand {
+        font-family: 'Monoton';
+        font-size: 3.5rem;
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+}
+
+.collapse {
+    .nav-link {
+        text-align: right;
+        margin-right: 20px;
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        font-family: $nav-link;
+        font-size: 2rem;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid white ;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }  
+}
+
+
+//MOBILE
+@include respond(phone) {
+    .navbar-brand {
+        margin-left: 15px;
+    }
+
+    .container {
+        .navbar-toggler {
+            border: none;
+            margin-right: 15px;
+        }
+    
+        .navbar-toggler-icon {
+            font-size: 3rem;
+        }
+    }
+
+    .collapse {
+        .nav-link:hover {
+            color: red !important;
+        }
+
+        .nav-link:hover::after {
+            border-bottom: none;
+        }
+    }
+    
+}

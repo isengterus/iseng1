@@ -1,6 +1,7 @@
 import {Component} from 'react';
 import {withRouter} from 'next/router'
 
+import Home from '../components/home'
 import '../sass/main.scss';
 import $ from 'jquery';
 
@@ -13,10 +14,7 @@ class Index extends Component{
  
     render(){
         return(
-            <div className="test">
-               <h1>test</h1>
-               <h2>teh botol sosro </h2>
-            </div>
+            <Home/>
         )
     }
 }

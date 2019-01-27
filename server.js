@@ -3,7 +3,7 @@ const next          = require('next');
 const compression   = require('compression')
 
 require('dotenv').config()
-const port      = process.env.PORT || 3005;
+const port      = process.env.PORT || 3006;
 const dev       = process.env.NODE_ENV !== 'production';
 const app       = next({dev});
 const handle    = app.getRequestHandler();
