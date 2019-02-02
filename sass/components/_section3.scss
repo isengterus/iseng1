@@ -36,6 +36,18 @@
     }
 }
 
+@include respond(tab-port) {
+    .section3 {
+        .display-4 {
+            font-size: 4rem;
+            padding-top: 2vh;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+    }
+}
 
 @include respond(phone) {
     .section3 {
@@ -43,7 +55,7 @@
 
         .display-4 {
             font-size: 7rem;
-            padding-top: 5vh;
+            padding-top: 0;
         }
 
         p {

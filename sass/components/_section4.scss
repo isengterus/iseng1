@@ -1,5 +1,5 @@
 .section4 {
-    height: auto;
+    height: 60vh;
     text-align: center;
     font-family: "Eina 04", system, -apple-system, BlinkMacSystemFont, sans-serif;
     text-align: left;
@@ -57,8 +57,21 @@
     }
 }
 
+@include respond(tab-port) {
+    .section4 {
+        height: auto;
+
+        .card {
+            margin-top: -10vh;
+            margin-bottom: 15vh;
+        }
+    }
+}
+
 @include respond(phone) {
     .section4 {
+        height: auto;
+
         .card {
             margin-top: -10vh;
             margin-bottom: 15vh;
