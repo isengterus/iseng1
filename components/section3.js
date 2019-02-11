@@ -6,7 +6,7 @@ const Section3 = () => (
             <div className="row">
                 <div className="col-lg-6">
                     <h1 className="display-4">We know what design<br/> can do.</h1>
-                    <hr/>
+                    <vr/>
                 </div>
                 <div className="col-lg-6">
                     <p className="lead1"> Transform businesses and mindsets.</p>

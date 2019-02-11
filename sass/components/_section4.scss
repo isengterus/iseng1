@@ -9,6 +9,11 @@
         margin-top: -15vh;
     }
 
+    img {
+        transition: 2s;
+        transform: rotateX(60deg);
+    }
+
     .img1, .img2 {
         height: 20rem;
     }
@@ -49,12 +54,16 @@
     }
 
     .card:hover {
-        opacity: 0.8;
+        .card-text{
+            color: blue;
+        }
+
+        img{
+            transform: scale(1);
+            // transform: rotateX(10deg);
+        }
     }
 
-    .card-text:hover{
-        color: blue;
-    }
 }
 
 @include respond(tab-port) {
